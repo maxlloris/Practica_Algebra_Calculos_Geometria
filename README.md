@@ -25,13 +25,12 @@ This Python module provides a comprehensive toolkit for algebraic computations. 
 
    - The concept of the determinant specifically applies to square matrices. This value is obtained by summing the products of the diagonal elements of the matrix in one direction and subtracting the sum of the diagonal products in the opposite direction. It is commonly denoted by the symbol $|A|$.
 
-        A= $\left(
-        \begin{array}{ll}
-        a_{11} & a_{12} & a_{13} \\
-        a_{21} & a_{22}  & a_{23} \\
-        a_{31} & a_{32}  & a_{33} \\
-        \end{array}
-        \right)$<br><br>
+        ```python
+          A = np.array([
+            [a11, a12, a13],
+            [a21, a22, a23],
+            [a31, a32, a33]])
+        ```
 
         $|A| = (a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} + a_{13}a_{21}a_{32}) - (a_{31}a_{22}a_{13} + a_{32}a_{23}a_{11} + a_{33}a_{21}a_{12})$
 
@@ -102,13 +101,12 @@ Este módulo de Python proporciona un conjunto completo de herramientas para cá
 
    - El concepto del **determinante** se aplica específicamente a las **matrices cuadradas**. Este valor se obtiene al sumar los productos de los elementos diagonales de la matriz en una dirección y restar la suma de los productos diagonales en la dirección opuesta. Es comúnmente denotado por el símbolo $|A|$.
 
-        A= $\left(
-        \begin{array}{ll}
-        a_{11} & a_{12} & a_{13} \\
-        a_{21} & a_{22}  & a_{23} \\
-        a_{31} & a_{32}  & a_{33} \\
-        \end{array}
-        \right)$<br><br>
+        ```python
+          A = np.array([
+            [a11, a12, a13],
+            [a21, a22, a23],
+            [a31, a32, a33]])
+        ```
 
         $|A| = (a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} + a_{13}a_{21}a_{32}) - (a_{31}a_{22}a_{13} + a_{32}a_{23}a_{11} + a_{33}a_{21}a_{12})$
 
